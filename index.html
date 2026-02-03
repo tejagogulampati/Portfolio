@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is my first HTML page on GitHub!</p>
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teja Gogulampati | Portfolio</title>
 
-    <!-- Font Awesome Icons -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- CSS -->
@@ -23,81 +18,128 @@
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2 class="logo">Teja</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- Navigation -->
+<nav>
+    <h2 class="logo">Teja</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Activities</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>Hello, I'm <span>Teja Gogulampati</span></h1>
-        <p>Aspiring Software Developer & Computer Science Student</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
+<!-- Hero -->
+<section id="home" class="hero">
+    <img src="https://scontent-den2-1.xx.fbcdn.net/v/t1.15752-9/621453616_2364815587355625_1801377450481404462_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=5vjDioPeTL4Q7kNvwFXkymf&_nc_oc=Adls32A0DnZfSKqNMscf39CP3KdhHHlu9EPxuDqqFkDU2Mm8ZId8oBUQPTVqQE6jbh4&_nc_zt=23&_nc_ht=scontent-den2-1.xx&oh=03_Q7cD4gFJpGgoEoIeCB8ozfmWT7dX3P4IJT6gTM12cRTxP6v8sg&oe=69A8CC1E" 
+         alt="Profile picture of Teja" class="profile-pic">
+    <h1>Hello, I'm <span>Teja Gogulampati</span></h1>
+    <p>Passionate Computer Science Student</p>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
 
-    <!-- About -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <img src="https://scontent-den2-1.xx.fbcdn.net/v/t1.15752-9/621453616_2364815587355625_1801377450481404462_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=5vjDioPeTL4Q7kNvwFXkymf&_nc_oc=Adls32A0DnZfSKqNMscf39CP3KdhHHlu9EPxuDqqFkDU2Mm8ZId8oBUQPTVqQE6jbh4&_nc_zt=23&_nc_ht=scontent-den2-1.xx&oh=03_Q7cD4gFJpGgoEoIeCB8ozfmWT7dX3P4IJT6gTM12cRTxP6v8sg&oe=69A8CC1E" 
+             alt="Teja working on a project" class="about-pic">
         <p>
-            I am a computer science student with a passion for building projects using
-            HTML, CSS, and programming fundamentals. I enjoy learning new technologies,
-            solving problems, and using AI tools to improve my workflow and creativity.
+            I am a computer science student who loves coding, building websites, and creating interactive projects.
+            I enjoy solving problems and collaborating on meaningful projects. I actively participate in Indian student clubs and community service initiatives.
         </p>
-    </section>
+    </div>
+</section>
 
-    <!-- Skills -->
-    <section id="skills" class="section dark">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div><i class="fab fa-html5"></i><p>HTML5</p></div>
-            <div><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
-            <div><i class="fab fa-github"></i><p>GitHub</p></div>
-            <div><i class="fas fa-code"></i><p>Programming Basics</p></div>
+<!-- Skills -->
+<section id="skills" class="section dark">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div><i class="fas fa-code"></i><p>C</p></div>
+        <div><i class="fas fa-code"></i><p>Java</p></div>
+        <div><i class="fab fa-html5"></i><p>HTML</p></div>
+    </div>
+</section>
+
+<!-- Activities / Services -->
+<section id="services" class="section">
+    <h2>Activities</h2>
+    <div class="services">
+        <div class="service-card">
+            <i class="fas fa-users"></i>
+            <h3>Indian Student Clubs</h3>
+            <p>Actively participate in multiple Indian cultural and academic clubs to foster community engagement.</p>
         </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Portfolio Website</h3>
-                <p>A personal website built using HTML and CSS and deployed using GitHub Pages.</p>
-                <a href="#">GitHub Repo</a>
-            </div>
-            <div class="card">
-                <h3>Future Project</h3>
-                <p>This section will be updated as I complete more projects.</p>
-                <a href="#">Coming Soon</a>
-            </div>
+        <div class="service-card">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Brown Bag Project</h3>
+            <p>Contributed to preparing and distributing over 10,000 meals for homeless individuals.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact -->
-    <section id="contact" class="section dark">
-        <h2>Contact</h2>
-        <p>Connect with me:</p>
-        <div class="contact-icons">
-            <a href="https://github.com/tejagogulampati" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="#" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
+<!-- Experience -->
+<section id="experience" class="section dark">
+    <h2>Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>High School CS Internship</h3>
+            <span>Summer 2023</span>
+            <p>Completed an internship in a computer science class, gaining practical coding and project experience.</p>
         </div>
-    </section>
+        <div class="timeline-item">
+            <h3>Community Service - Brown Bag Project</h3>
+            <span>2024</span>
+            <p>Helped organize and distribute over 10,000 meals for homeless individuals.</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2025 Teja Gogulampati</p>
-    </footer>
+<!-- Projects -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my projects, skills, and experience.</p>
+            <a href="https://github.com/tejagogulampati/Portfolio" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="section dark">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+        <div class="testimonial-card">
+            <p>"Teja is a hardworking and talented peron" </p>
+                 -Yinka Martins</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"A responsible and community-oriented individual who contributes positively to every project."</p>
+            <h4>- Volunteer Coordinator</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Connect with me:</p>
+    <div class="contact-icons">
+        <a href="https://github.com/tejagogulampati" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/teja-gogulampati-858725337/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Teja Gogulampati</p>
+</footer>
 
 </body>
 </html>
-
